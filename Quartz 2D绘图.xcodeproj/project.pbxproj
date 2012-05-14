@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F07B731560AC2500ECD450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F07B721560AC2500ECD450 /* UIKit.framework */; };
+		04F07B751560AC2500ECD450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F07B741560AC2500ECD450 /* Foundation.framework */; };
+		04F07B7B1560AC2500ECD450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F07B791560AC2500ECD450 /* InfoPlist.strings */; };
+		04F07B7D1560AC2500ECD450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07B7C1560AC2500ECD450 /* main.m */; };
+		04F07B811560AC2500ECD450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07B801560AC2500ECD450 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F07B6E1560AC2500ECD450 /* Quartz 2D绘图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz 2D绘图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F07B721560AC2500ECD450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F07B741560AC2500ECD450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F07B781560AC2500ECD450 /* Quartz 2D绘图-Info.plist */ = {isa = PBXFileReference; path = "Quartz 2D绘图-Info.plist"; sourceTree = "<group>"; };
+		04F07B7A1560AC2500ECD450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F07B7C1560AC2500ECD450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F07B7E1560AC2500ECD450 /* Quartz 2D绘图-Prefix.pch */ = {isa = PBXFileReference; path = "Quartz 2D绘图-Prefix.pch"; sourceTree = "<group>"; };
+		04F07B7F1560AC2500ECD450 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F07B801560AC2500ECD450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F07B6B1560AC2500ECD450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F07B731560AC2500ECD450 /* UIKit.framework in Frameworks */,
+				04F07B751560AC2500ECD450 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F07B631560AC2500ECD450 = {
+			isa = PBXGroup;
+			children = (
+				04F07B761560AC2500ECD450 /* Quartz 2D绘图 */,
+				04F07B711560AC2500ECD450 /* Frameworks */,
+				04F07B6F1560AC2500ECD450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F07B6F1560AC2500ECD450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F07B6E1560AC2500ECD450 /* Quartz 2D绘图.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F07B711560AC2500ECD450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F07B721560AC2500ECD450 /* UIKit.framework */,
+				04F07B741560AC2500ECD450 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F07B761560AC2500ECD450 /* Quartz 2D绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				04F07B7F1560AC2500ECD450 /* AppDelegate.h */,
+				04F07B801560AC2500ECD450 /* AppDelegate.m */,
+				04F07B771560AC2500ECD450 /* Supporting Files */,
+			);
+			path = "Quartz 2D绘图";
+			sourceTree = "<group>";
+		};
+		04F07B771560AC2500ECD450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F07B781560AC2500ECD450 /* Quartz 2D绘图-Info.plist */,
+				04F07B791560AC2500ECD450 /* InfoPlist.strings */,
+				04F07B7C1560AC2500ECD450 /* main.m */,
+				04F07B7E1560AC2500ECD450 /* Quartz 2D绘图-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F07B6D1560AC2500ECD450 /* Quartz 2D绘图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F07B841560AC2500ECD450 /* Build configuration list for PBXNativeTarget "Quartz 2D绘图" */;
+			buildPhases = (
+				04F07B6A1560AC2500ECD450 /* Sources */,
+				04F07B6B1560AC2500ECD450 /* Frameworks */,
+				04F07B6C1560AC2500ECD450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz 2D绘图";
+			productName = "Quartz 2D绘图";
+			productReference = 04F07B6E1560AC2500ECD450 /* Quartz 2D绘图.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F07B651560AC2500ECD450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = wer;
+			};
+			buildConfigurationList = 04F07B681560AC2500ECD450 /* Build configuration list for PBXProject "Quartz 2D绘图" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04F07B631560AC2500ECD450;
+			productRefGroup = 04F07B6F1560AC2500ECD450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F07B6D1560AC2500ECD450 /* Quartz 2D绘图 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F07B6C1560AC2500ECD450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F07B7B1560AC2500ECD450 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F07B6A1560AC2500ECD450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F07B7D1560AC2500ECD450 /* main.m in Sources */,
+				04F07B811560AC2500ECD450 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F07B791560AC2500ECD450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F07B7A1560AC2500ECD450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F07B821560AC2500ECD450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F07B831560AC2500ECD450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F07B851560AC2500ECD450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz 2D绘图/Quartz 2D绘图-Prefix.pch";
+				INFOPLIST_FILE = "Quartz 2D绘图/Quartz 2D绘图-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F07B861560AC2500ECD450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz 2D绘图/Quartz 2D绘图-Prefix.pch";
+				INFOPLIST_FILE = "Quartz 2D绘图/Quartz 2D绘图-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F07B681560AC2500ECD450 /* Build configuration list for PBXProject "Quartz 2D绘图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F07B821560AC2500ECD450 /* Debug */,
+				04F07B831560AC2500ECD450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F07B841560AC2500ECD450 /* Build configuration list for PBXNativeTarget "Quartz 2D绘图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F07B851560AC2500ECD450 /* Debug */,
+				04F07B861560AC2500ECD450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F07B651560AC2500ECD450 /* Project object */;
+}
